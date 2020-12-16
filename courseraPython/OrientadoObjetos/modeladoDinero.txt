@@ -1,0 +1,32 @@
+ a. Modela e implementa una cantidad de dinero. Por ejemplo, se debe poder representar:
+
+●      Un Peso ($1)
+
+●      Un Dólar (U$S 1)
+
+●      Un Euro (€ 1)
+
+●      Dos Pesos ($ 2)
+
+●      Cinco Dólares (U$S 5)
+
+b. Agrega la posibilidad al modelo de sumar, resta dos cantidades de dinero. Además, 
+multiplica una cantidad de dinero por un número y divide una cantidad de dinero por un número.
+
+Por ejemplo, se debe poder hacer:
+
+●      $ 1 + $ 1
+
+●      U$S 1 + U$S 1
+
+●      $ 1 + U$S 1
+
+●      U$S 1 + $ 1
+
+●      $ 1 - U$S 1
+
+●      U$S 1 - $ 1
+
+●      U$S 1 * 10
+
+●      U$S 10 / 2

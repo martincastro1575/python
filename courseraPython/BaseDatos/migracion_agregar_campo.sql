@@ -1,0 +1,5 @@
+BEGIN TRANSACTION;
+ALTER TABLE 'currency'
+ADD 'factor' REAL;
+
+COMMIT;

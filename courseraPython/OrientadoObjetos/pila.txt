@@ -1,0 +1,11 @@
+Implementar una pila con objeto que sepa responder los mensajes:
+
+top: devuelve el elemento que está en el tope de la pila.
+
+push: Apila un elemento nuevo.
+
+pop: Desapila un elemento y lo devuelve. Levantar una excepción si se hace pop de una pila vacía.
+
+len: Devuelve la cantidad de elementos de la pila.
+
+is_empty: Indica si la pila está vacía.

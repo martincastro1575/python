@@ -1,0 +1,15 @@
+countries = ['venezuela','canada','españa','brazil','usa']
+
+print(f'Countries List Original: {countries} .')
+print(f'Countries List by alphabetical order: {sorted(countries)}')
+print(f'Countries List Original: {countries} .')
+print(f'Countries List by reverse alphabetical order: {sorted(countries,reverse=True)}')
+print(f'Countries List Original: {countries} .')
+countries.reverse()
+print(f'Countries List by chornological order: {countries} .')
+countries.reverse()
+print(f'Countries List original by chornological order: {countries} .')
+countries.sort()
+print(f'Countries List by alphabetical order, with change: {countries}')
+countries.sort(reverse=True)
+print(f'Countries List by reverse alphabetical order, with change: {countries}')
