@@ -1,5 +1,5 @@
-prompt = "\nTell me something, and I will repeat it back to you: "
-prompt += "\nEnter quit to end the program: "
+prompt = "\nTell me something, and I will repeat it back to you "
+prompt += "\nOr Enter quit to end the program: "
 
 activate = True
 

@@ -3,6 +3,7 @@ finished_sandwiches = []
 
 print("\nThe Deli has run out of pastrami")
 
+#elimino el sandwich de pastrami 
 while 'pastrami' in sandwich_orders:
     sandwich_orders.remove('pastrami')
 
