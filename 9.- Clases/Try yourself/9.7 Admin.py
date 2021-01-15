@@ -24,16 +24,20 @@ class User:
 class Admin(User):
     def __init__(self, first, last, email, address):
         super().__init__(first, last, email, address)
-        self.privileges = ['can add post','can delete post','can ban user']
+        self.privileges = []
     
     
     def show_privileges(self):
         print(f"Admin's privileges: ({self.first_name} - {self.last_name})")
         for privilege in self.privileges:
             print(f"-. {privilege}")
+    
+    def set_privileges(self, *privileges):
+        self.privileges = privileges
 
 
 
 
 admin_user = Admin('Martin', 'Castro','','')
+admin_user.set_privileges('can add post','can delete post','can ban user')
 admin_user.show_privileges()
