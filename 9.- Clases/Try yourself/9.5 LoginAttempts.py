@@ -17,9 +17,12 @@ class User:
     
     def increment_login_attempts(self):
         self.login_attempts += 1
-    
+
     def reset_login_attempts(self):
         self.login_attempts = 0
+    
+    def get_login_attemps(self):
+        return self.login_attempts
 
 
 user1 = User(
@@ -35,8 +38,8 @@ user1.increment_login_attempts()
 user1.increment_login_attempts()
 user1.increment_login_attempts()
 
-print(f"\nNumber of login attempts: {user1.login_attempts}")
+print(f"\nNumber of login attempts: {user1.get_login_attemps()}")
 
 print("\n*****Reset Login Attempts*****")
 user1.reset_login_attempts()
-print(f"Number of login attempts: {user1.login_attempts}")
+print(f"Number of login attempts: {user1.get_login_attemps()}")

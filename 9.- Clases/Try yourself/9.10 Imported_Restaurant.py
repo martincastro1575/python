@@ -1,4 +1,4 @@
-from restaurant import Restaurant,IceCreamStand
+from restaurant import Restaurant, IceCreamStand
 #flavors = ['Vainilla', 'Strawberry','apple','banana','grapes']
 italian_restaurant = Restaurant('Mamma mia', 'Italian')
 italian_restaurant.describe_restaurant()
