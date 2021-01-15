@@ -14,6 +14,7 @@ class Restaurant:
     def set_number_served(self, clients):
         if clients > self.number_served:
             self.number_served = clients
+            print(f"\nNumber of clients: {self.number_served}")
         else:
             print(f"\nThe client's number must be bigger than {self.number_served}")
     
@@ -21,6 +22,7 @@ class Restaurant:
         
         if increment_clients > 0:
             self.number_served += increment_clients
+            print(f"\nNumber of clients after increment: {self.number_served}")
         else:
             print("\nThe client's number must be different to zero value")
 
@@ -34,13 +36,14 @@ print(f"\nNumber of clients: {restaurant.number_served}")
 restaurant.describe_restaurant()
 restaurant.open_restaurant()
 restaurant.set_number_served(35)
-print(f"\nNumber of clients: {restaurant.number_served}")
 
-print("*****Incrementing the number of clients*****")
-restaurant.increment_number_served(10)
-print(f"\nNumber of clients after increment: {restaurant.number_served}")
 
-restaurant.set_number_served(10)
+print("\n*****Incrementing the number of clients*****")
+restaurant.increment_number_served(20)
+
+
+
+
 # restaurant.number_served = 55
 # print(f"\nNumber of clients: {restaurant.number_served}")
 
